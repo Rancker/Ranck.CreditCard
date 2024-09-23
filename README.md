@@ -1,24 +1,11 @@
-# Ranck Problem Statement
-This task is aimed at understanding how you go about analyzing and solving a problem and therefore there are no right or wrong answers.
-
-The most important thing is that you show us how you would tackle a problem and in the actual interview, we will be going through what you have done/would do differently if given more time.
-
-Commit your changes in this repository at least 24 hours before the interview so we have some time to prepare.
-
-Try not to spend more than 2.5 to 3 hours on this as we can discuss during the interview what you would have done differently/more when you had more time.
-
 # The task
 ## C#
-We as a bank have an external API that gives us a random set of currently active credit cards (https://random-data-api.com/api/v2/credit_cards).
+An external API that gives us a random set of currently active credit cards (https://random-data-api.com/api/v2/credit_cards).
 
 Create an API in C# that:
 - on request can show the user a list of 10 random credit cards with their expiration date and type.
 - on request can show how many credit cards we have of each type (based on the 1st request)
 - on request can show how many credit cards expire after the 1st of january of 2027 (based on the list in the 1st request).
-
-## Web
-- Create a React App to visualise the data from the API you created above.
-- If you do not have React or web app skills, please provide another simple UI to visualise the API.
 
 # Resources
 API: https://random-data-api.com/api/v2/credit_cards
